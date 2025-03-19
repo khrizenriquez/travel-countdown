@@ -4,44 +4,9 @@ import CountdownComponent from "./Countdown.jsx";
 const targetDate = new Date("2025-03-30T23:59:59");
 ---
 <main class="mt-6 space-y-6 w-full max-w-3xl">
-	<CountdownComponent client:load target={targetDate} title="🎉 Cuenta regresiva para Año Nuevo" />
+	<CountdownComponent client:load target={targetDate} title="🏨 Compra boletos de avión" />
 
-	<!-- <section class="bg-black/20 p-6 rounded-lg shadow-lg">
-		<h2 class="text-lg font-semibold text-blue-400 flex items-center gap-2">
-			🏨 Compra boletos de avión
-		</h2>
-		<div class="mt-3 flex justify-center gap-2">
-			<span class="bg-black p-3 rounded-md text-center text-xl">01 <br /><span class="text-sm">Meses</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">12 <br /><span class="text-sm">Días</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">20 <br /><span class="text-sm">Horas</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">53 <br /><span class="text-sm">Min</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">22 <br /><span class="text-sm">Seg</span></span>
-		</div>
-	</section>
+	<CountdownComponent client:load target={targetDate} title="🏡 Reserva en Airbnb" />
 
-	<section class="bg-black/20 p-6 rounded-lg shadow-lg">
-		<h2 class="text-lg font-semibold text-purple-400 flex items-center gap-2">
-			🏡 Reserva en Airbnb
-		</h2>
-		<div class="mt-3 flex justify-center gap-2">
-			<span class="bg-black p-3 rounded-md text-center text-xl">01 <br /><span class="text-sm">Meses</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">26 <br /><span class="text-sm">Días</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">14 <br /><span class="text-sm">Horas</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">53 <br /><span class="text-sm">Min</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">22 <br /><span class="text-sm">Seg</span></span>
-		</div>
-	</section>
-
-	<section class="bg-black/20 p-6 rounded-lg shadow-lg">
-		<h2 class="text-lg font-semibold text-cyan-400 flex items-center gap-2">
-			✈️ ¡Día del viaje!
-		</h2>
-		<div class="mt-3 flex justify-center gap-2">
-			<span class="bg-black p-3 rounded-md text-center text-xl">03 <br /><span class="text-sm">Meses</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">08 <br /><span class="text-sm">Días</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">02 <br /><span class="text-sm">Horas</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">53 <br /><span class="text-sm">Min</span></span>
-			<span class="bg-black p-3 rounded-md text-center text-xl">22 <br /><span class="text-sm">Seg</span></span>
-		</div>
-	</section> -->
+	<CountdownComponent client:load target={targetDate} title="✈️ ¡Día del viaje!" />
 </main>

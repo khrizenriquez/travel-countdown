@@ -1,34 +1,60 @@
-# Astro Starter Kit: Basics
+# 🚀 Descripción
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+Travel Countdown es una aplicación web que permite a los usuarios crear y visualizar contadores regresivos para fechas importantes, como viajes, eventos o celebraciones. La aplicación está desarrollada utilizando Astro, React y Tailwind CSS, ofreciendo una experiencia de usuario moderna y responsiva.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+<img width="311" alt="image" src="https://github.com/user-attachments/assets/2d90c5cd-f333-4a11-9b56-fa31baf36acb" />
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+#Tabla de Contenidos
+- Características
+- Instalación
+- Uso
+- Contribuciones
+- Licencia
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Características
 
-## 🚀 Project Structure
+Contadores Personalizados: Crea contadores regresivos para cualquier fecha y evento significativo.
 
-Inside of your Astro project, you'll see the following folders and files:
+Interfaz Responsiva: Diseño adaptable a diferentes dispositivos y tamaños de pantalla.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Tecnologías Modernas: Construido con Astro, React y Tailwind CSS para una experiencia de desarrollo eficiente y un rendimiento óptimo.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Instalación
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+- Clona el repositorio: git clone https://github.com/khrizenriquez/travel-countdown.git
+- Navega al directorio del proyecto:
+- `cd travel-countdown`
+- Instala las dependencias:
+- `pnpm install`
+
+## Inicia el servidor de desarrollo:
+
+`pnpm dev`
+
+Luego, abre http://localhost:4321 en tu navegador para ver la aplicación en funcionamiento.
+
+### Uso
+
+Una vez que la aplicación esté en funcionamiento:
+
+- Crear un nuevo contador: Ingresa la fecha y el nombre del evento para generar un contador regresivo personalizado.
+- Visualizar contadores: Observa la cuenta regresiva en tiempo real para cada evento agregado.
+- Eliminar contadores: Gestiona tus eventos eliminando aquellos que ya no sean relevantes.
+
+### Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
+
+- Haz un fork del repositorio.
+- Crea una nueva rama con tu funcionalidad o corrección de errores:
+    - git checkout -b feature/nueva-funcionalidad
+- Realiza tus cambios y haz commit:
+    - git commit -m "Agrega nueva funcionalidad"
+- Sube tus cambios a tu repositorio fork:
+    - git push origin feature/nueva-funcionalidad
+- Abre un Pull Request en este repositorio.
 
 ## 🧞 Commands
 
@@ -43,6 +69,8 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
